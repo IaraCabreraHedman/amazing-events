@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <script src="https://kit.fontawesome.com/1cfd22f5d2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="col-lg-12 navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid" >
+          <img src="./images/logo_amazing_events.png" alt="logo_amazing_events" class="logo">
+          
+          <div class="navbar-expand-md d-flex justify-content-end pt-2 pb-2" id="navbarNav">
+            <div class="container-fluid navbar-dark">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="mynav">
+              <ul class="navbar-nav navbar-dark">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Upcoming Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./past_events.html">Past Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="./stats.html">Stats</a>
+                </li>
+              </ul>
+
+            </div>
+            
+          </div>
+        </div>
+    </nav>
+        <div class="container-fluid">
+            <div class="row banner">
+                <div class="col   banner-item d-flex justify-content-start"> 
+                    <a href="./index.html" class="btn"><i class="fa-solid fa-caret-left fa-7x arrow" ></i></a>
+                </div>
+                <div class="col banner-item ">
+                    <h1 >UPCOMING EVENTS</h1>
+                </div>
+                <div class="col banner-item d-flex justify-content-end">
+                    <a href="./past_events.html" class="btn "><i class="fa-solid fa-caret-right fa-7x arrow"></i></a>
+                </div>
+               
+
+            </div>
+        </div>
+    </header>
+    <main>
+      <div class="container-fluid ">
+        
+        <div class="row">
+          <div class="col ">
+            <form class="d-lg-flex d-md-flex d-none" >
+              <label class="text-light me-2" for="category1"><input type="checkbox" id="category1" name="category">Category</label>
+              <label class="text-light me-2" for="category2"><input type="checkbox" id="category2" name="category">Category</label>
+              <label class="text-light me-2" for="category3"><input type="checkbox" id="category3" name="category">Category</label>
+              <label class="text-light me-2" for="category4"><input type="checkbox" id="category4" name="category">Category</label>
+              <label class="text-light me-2" for="category5"><input type="checkbox" id="category5" name="category">Category</label>
+            </form>
+          </div>
+          <div class="col ">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-search" type="submit">Search</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="container-fluid ">
+        <div class="row justify-content-xs-center">
+          <div class="col col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="card text-bg-dark" style="width: 16em; height: 25em;">
+              <img src="./images/cinema.jpg" class="card-img-top" alt="cinema">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <p>Price: $0000</p>
+                  </div>
+                  <div class="col">
+                    <a href="./details.html" class="btn btn-search">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-3  col-md-6 col-sm-6 col-xs-12">
+            <div class="card text-bg-dark" style="width: 16em; height: 25em;">
+              <img src="./images/music_concert.jpg" class="card-img-top" alt="music_concert">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <p>Price: $0000</p>
+                  </div>
+                  <div class="col">
+                    <a href="./details.html" class="btn btn-search">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-3  col-md-6 col-sm-6 col-xs-12">
+            <div class="card text-bg-dark" style="width: 16em; height: 25em;">
+              <img src="./images/museum_tour.jpg" class="card-img-top" alt="museum_tour">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <p>Price: $0000</p>
+                  </div>
+                  <div class="col">
+                    <a href="./details.html" class="btn btn-search">Ver más...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-3  col-md-6 col-sm-6 col-xs-12">
+            <div class="card text-bg-dark" style="width: 16em; height: 25em;">
+              <img src="./images/marathon.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <p>Price: $0000</p>
+                  </div>
+                  <div class="col">
+                    <a href="./details.html" class="btn btn-search">Ver más...</a>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <!-- Footer -->
+<footer class="text-center text-lg-start text-light">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+
+    <!-- Left -->
+    <div>
+      <a href="" class="me-4 link-light"><i class="fa-brands fa-instagram fa-2x"></i></a>  
+      <a href="" class="me-4 link-light"><i class="fab fa-facebook-f fa-2x"></i></a>
+      <a href="" class="me-4 link-light"><i class="fab fa-twitter fa-2x"></i></a>
+    </div>
+      <!-- Left -->
+     <!-- Right -->
+     <div class="me-5 d-none d-lg-block">
+      <h3>Cohorte</h3>
+    </div>
+    <!--Right -->
+  </section>
+</footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
