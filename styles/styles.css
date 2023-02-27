@@ -139,3 +139,20 @@ td{
 main{
     min-height: 70vh;
 }
+
+/* COMPUTADORA (LARGE)*/
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+  
+ /*TABLET (MEDIUM)*/
+  @media all and (min-width: 480px) and (max-width: 768px) { }
+  
+  /* TELÉFONOS (SMALL) */
+  @media all and (max-width: 480px) { }
+  
+  /*  Orientación: Vertical */
+  @media screen and (orientation:portrait) { }
+  
+  
+
+  
