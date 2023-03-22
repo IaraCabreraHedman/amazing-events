@@ -36,16 +36,19 @@
 
 .banner{
     background-image:linear-gradient(#86003C, black);
+   
 }
 
 h1{
     color:white;
     margin-top: 4vh;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
 }
 .arrow{
     color: #E41F7B;
+    max-height: 1em;
+    max-width: 1em;
 }
 .arrow:hover{
     color: #E41F7B;
@@ -61,6 +64,7 @@ main{
     border-radius: 1vh;
     color: #E41F7B;
     border: 1px solid #E41F7B;
+    align-self: flex-end;
 }
 
 .btn-search:hover{
@@ -68,7 +72,9 @@ main{
     color: white;
 }
 
-
+#search-input{
+    max-width: 25em;
+}
 
 .contact-form{
     margin-top: 5vh;
@@ -80,7 +86,9 @@ main{
 }
 
 #details-main{
-    background-image: linear-gradient(#86003c, black);
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .details-image{
@@ -90,9 +98,11 @@ main{
 
 }
 
+
 .card{
     border: 2px solid #86003C;
-    margin: 2vh;
+    margin: 3vh;
+   
     
 }
 
