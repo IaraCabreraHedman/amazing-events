@@ -1,8 +1,8 @@
 const cardsContainer = document.querySelector('.cards-container');
 let checkboxes = document.getElementById("checkbox");
 
-  // fetch('https://mindhub-xj03.onrender.com/api/amazing')
-  fetch('./data/amazing.json')
+  fetch('https://mindhub-xj03.onrender.com/api/amazing')
+  // fetch('./data/amazing.json')
   .then(response => response.json())
   .then(dataApi =>{
       console.log(dataApi)
